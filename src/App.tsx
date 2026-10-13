@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { MotionConfig } from 'framer-motion'
 import Navbar from './components/Navbar'
+import SiteFooter from './components/SiteFooter'
 import { AboutPage } from './pages/AboutPage'
 import { BlogPage } from './pages/BlogPage'
 import { ContactPage } from './pages/ContactPage'
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
+        <SiteFooter />
       </BrowserRouter>
     </MotionConfig>
   )

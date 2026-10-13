@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" fill="none">
+  <defs>
+    <linearGradient id="globe" x1="20" y1="18" x2="144" y2="142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80D8FF"/>
+      <stop offset=".58" stop-color="#078FC9"/>
+      <stop offset="1" stop-color="#713AC3"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#globe)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="82" cy="80" r="61"/>
+    <path d="M21 80h122M82 19c18 17 27 38 27 61s-9 44-27 61c-18-17-27-38-27-61s9-44 27-61Z"/>
+    <path d="M34 48c13 8 29 12 48 12s35-4 48-12M34 112c13-8 29-12 48-12s35 4 48 12"/>
+  </g>
+  <path d="M45 91c0-18 14-32 32-32h12c18 0 32 14 32 32v4c0 18-14 32-32 32H73l-21 15v-22c-5-6-7-13-7-22v-7Z" fill="#17233D" stroke="#80D8FF" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M100 80c-4-4-9-6-15-6-11 0-19 8-19 19s8 19 19 19c10 0 17-6 18-15H84" stroke="#F5F8FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="170" y="91" fill="#F5F8FF" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="2">GLOBAL</text>
+  <text x="174" y="126" fill="#80D8FF" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="5">TRANSLATION SERVICES</text>
+</svg>

@@ -19,17 +19,11 @@ function Brand({ onNavigate }: { onNavigate: () => void }) {
       aria-label="Global Translation Services home"
       onClick={onNavigate}
     >
-      <span className="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 40 40" fill="none">
-          <circle cx="20" cy="20" r="17.5" />
-          <path d="M2.8 20h34.4M20 2.5c4.8 4.7 7.2 10.5 7.2 17.5S24.8 32.8 20 37.5C15.2 32.8 12.8 27 12.8 20S15.2 7.2 20 2.5Z" />
-          <path d="M7 9.5c3.5 2.2 7.8 3.3 13 3.3s9.5-1.1 13-3.3M7 30.5c3.5-2.2 7.8-3.3 13-3.3s9.5 1.1 13 3.3" />
-        </svg>
-      </span>
-      <span className="brand-copy">
-        <strong>GLOBAL</strong>
-        <span>TRANSLATION SERVICES</span>
-      </span>
+      <img
+        className="brand-logo"
+        src="/global-translation-logo.svg"
+        alt="Global Translation Services"
+      />
     </Link>
   )
 }
